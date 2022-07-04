@@ -1,0 +1,222 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+    
+}
+
+.header{
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+.zon{
+    margin-left: 500px;
+    margin-right: 500px;
+    color: goldenrod;
+    background-color: gold;
+    margin-bottom: 10px;
+}
+
+#bee{
+    background-color: black;
+}
+
+
+.btn{
+    margin: 3px;
+    font-size: small;
+    font-weight: 500;
+    color: gold;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: 400px 300px;
+    grid-template-rows: 130px 130px 130px 130px 130px;
+    grid-template-areas: "a b" "d e";
+    text-align: center;
+}
+
+.sec{
+   /* text-align: center; */
+
+}
+
+img{
+    height: 100px;
+    width: 120px;
+    margin-right: 7px;
+    border-radius: 5px;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.price{
+    padding-left: 10px;
+    color: gold;
+
+}
+
+.info{
+    font-size: smaller;
+    font-weight: 400px;
+    margin-top: 5px;
+
+}
+
+
+
+
+ img{
+    height: 100px;
+    width: 120px;
+    margin-right: 7px;
+    border-radius: 5px;
+}
+
+
+@media (max-width:800px) {
+
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box; 
+    }
+    body{
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .center{
+        text-align: center;
+        
+    }
+
+
+    .second{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        height: 150px;
+        width: 330px;
+        margin-top: 19px;
+        margin-bottom: 19px;
+        border-radius: 5px;
+        border-color: goldenrod;
+        border-width: 5px;
+    }
+    
+    .header{
+        font-size: larger;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+    }
+    
+    .zon{
+
+        margin-left: 190px ;
+        margin-right: 190px ;
+        color: goldenrod;
+        background-color: gold;
+        margin-bottom: 10px;
+    }
+    
+    #bee{
+        background-color: black;
+        margin: 5px;
+    }
+    
+    
+    .btn{
+        margin: 20px;
+        font-size: small;
+        font-weight: 500px;
+    }
+
+    h4{
+        display: flex;
+        justify-content: space-between;
+        font-size: x-large;
+
+    }
+
+    .main{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+.sub{
+    /* background-color: aquamarine; */
+    text-align: start;
+    align-items: center;
+    margin-left: 10px ;
+    margin-right: 10px;
+}
+
+
+
+    .price{
+        padding-left: 10px;
+        color: gold;
+    
+    }
+    
+    .info{
+        font-size: large;
+        font-weight: 400;
+        margin-top: 25px;
+}
+
+.second{
+    width: 330px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
